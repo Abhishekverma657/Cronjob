@@ -1,0 +1,20 @@
+{
+  "name": "khelo-cron-standalone",
+  "version": "1.0.0",
+  "description": "Standalone Cron Service for Game Settlements",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^5.2.1",
+    "mysql2": "^3.11.4",
+    "node-cron": "^3.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
